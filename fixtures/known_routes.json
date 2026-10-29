@@ -1,0 +1,341 @@
+{
+  "startthefestival": {
+    "max_position": 33,
+    "sources": [
+      "tigerwishgrantbud",
+      "heedonicindigo"
+    ],
+    "spells": [
+      "add",
+      "adjacent",
+      "alter",
+      "change",
+      "chop",
+      "drop",
+      "combine",
+      "duplicate",
+      "find_and_replace",
+      "most_frequent",
+      "move",
+      "recast_spell",
+      "subtract",
+      "swap",
+      "swap_adjacent",
+      "unlock_letter"
+    ],
+    "root": "tigerwishgrantbud",
+    "cost": 17,
+    "steps": [
+      "combine_12_heedonicindigo_",
+      "recast_combine_",
+      "combine_15_tigerwishgrantbud_",
+      "alter_18_a_",
+      "move_0_11_",
+      "add_14_f_",
+      "swap_7h_29t_",
+      "change_18_v_",
+      "sub_8_g_",
+      "swap_adj_8r_9a_",
+      "fandr_r_l_",
+      "unlock_10_t_",
+      "dup_10_t_",
+      "drop_n_",
+      "chop_0_",
+      "mostf_16_t_",
+      "adj-_15_t_"
+    ]
+  },
+  "newwatertower": {
+    "max_position": 33,
+    "sources": [
+      "redpedalwalker",
+      "tigerwishgrantbud"
+    ],
+    "spells": [
+      "combine",
+      "duplicate",
+      "change",
+      "move",
+      "subtract",
+      "swap",
+      "recast_spell",
+      "alter",
+      "add"
+    ],
+    "root": "redpedalwalker",
+    "cost": 10,
+    "steps": [
+      "combine_14_tigerwishgrantbud_",
+      "dup_8_w_",
+      "change_16_o_",
+      "move_1_7_",
+      "sub_11_l_",
+      "swap_11k_27t_",
+      "recast_swap_",
+      "swap_16g_19w_",
+      "alter_26_u_",
+      "add_7_n_"
+    ]
+  },
+  "revealsakuyaexisted": {
+    "max_position": 33,
+    "sources": [
+      "redpedalwalker",
+      "tigerwishgrantbud",
+      "sakuya"
+    ],
+    "spells": [
+      "combine",
+      "recast_spell",
+      "spellcheck",
+      "move",
+      "change",
+      "subtract",
+      "find_and_replace",
+      "swap",
+      "add"
+    ],
+    "root": "redpedalwalker",
+    "cost": 10,
+    "steps": [
+      "combine_13_tigerwishgrantbud_",
+      "recast_combine_",
+      "combine_8_sakuya_",
+      "spellcheck_",
+      "move_5_18_",
+      "change_3_v_",
+      "sub_2_d_",
+      "fandr_t_x_",
+      "swap_15g_21s_",
+      "add_16_t_"
+    ]
+  },
+  "walkthroughwalls": {
+    "max_position": 33,
+    "sources": [
+      "redpedalwalker",
+      "cespyoped"
+    ],
+    "spells": [
+      "combine",
+      "recast_spell",
+      "move",
+      "change",
+      "duplicate",
+      "find_and_replace",
+      "subtract",
+      "swap",
+      "add",
+      "unlock_letter",
+      "adjacent",
+      "most_frequent"
+    ],
+    "root": "redpedalwalker",
+    "cost": 13,
+    "steps": [
+      "combine_5_cespyoped_",
+      "recast_combine_",
+      "combine_10_redpedalwalker_",
+      "move_7_30_",
+      "change_24_u_",
+      "dup_29_l_",
+      "fandr_e_h_",
+      "sub_26_d_",
+      "swap_26d_31w_",
+      "add_21_t_",
+      "unlock_26_h_",
+      "adj-_26_h_",
+      "mostf_27_h_"
+    ]
+  },
+  "walkthroughwalls_discovered": {
+    "target": "walkthroughwalls",
+    "max_position": 33,
+    "sources": [
+      "redpedalwalker",
+      "cespyoped"
+    ],
+    "spells": [
+      "add",
+      "adjacent",
+      "change",
+      "combine",
+      "duplicate",
+      "find_and_replace",
+      "most_frequent",
+      "move",
+      "recast_spell",
+      "subtract",
+      "unlock_letter"
+    ],
+    "root": "redpedalwalker",
+    "cost": 12,
+    "steps": [
+      "combine_8_cespyoped_",
+      "recast_combine_",
+      "combine_13_redpedalwalker_",
+      "fandr_e_h_",
+      "unlock_29_h_",
+      "adj-_29_h_",
+      "change_28_u_",
+      "move_10_33_",
+      "add_24_t_",
+      "dup_33_l_",
+      "mostf_31_h_",
+      "sub_30_d_"
+    ]
+  },
+  "startthefestival_discovered": {
+    "target": "startthefestival",
+    "max_position": 33,
+    "sources": [
+      "tigerwishgrantbud",
+      "heedonicindigo"
+    ],
+    "spells": [
+      "add",
+      "adjacent",
+      "alter",
+      "change",
+      "chop",
+      "combine",
+      "duplicate",
+      "find_and_replace",
+      "most_frequent",
+      "move",
+      "recast_spell",
+      "swap"
+    ],
+    "root": "tigerwishgrantbud",
+    "cost": 13,
+    "steps": [
+      "combine_14_heedonicindigo_",
+      "recast_combine_",
+      "combine_17_tigerwishgrantbud_",
+      "fandr_g_v_",
+      "add_16_f_",
+      "change_22_l_",
+      "dup_13_t_",
+      "move_26_19_",
+      "alter_23_a_",
+      "adj+_10_r_",
+      "chop_0_",
+      "mostf_11_t_",
+      "swap_4r_13n_"
+    ]
+  },
+  "controltemperature": {
+    "max_position": 33,
+    "sources": [
+      "tigerwishgrantbud",
+      "violeepicturet"
+    ],
+    "spells": [
+      "add",
+      "change",
+      "combine",
+      "drop",
+      "find_and_replace",
+      "most_frequent",
+      "move",
+      "recast_spell",
+      "subtract",
+      "swap"
+    ],
+    "root": "tigerwishgrantbud",
+    "cost": 11,
+    "steps": [
+      "fandr_a_o_",
+      "combine_14_violeepicturet_",
+      "drop_14_v_",
+      "swap_10r_21c_",
+      "change_18_m_",
+      "add_22_a_",
+      "move_3_20_",
+      "sub_19_i_",
+      "mostf_16_t_",
+      "recast_swap_",
+      "swap_3r_13i_"
+    ]
+  },
+  "dddddddddddie": {
+    "max_position": 33,
+    "sources": [
+      "redpedalwalker",
+      "lilachangerbloom"
+    ],
+    "spells": [
+      "adjacent",
+      "alter",
+      "combine",
+      "duplicate",
+      "find_and_replace",
+      "most_frequent",
+      "move",
+      "recast_spell",
+      "subtract",
+      "swap",
+      "swap_adjacent",
+      "unlock_letter"
+    ],
+    "root": "lilachangerbloom",
+    "cost": 13,
+    "steps": [
+      "combine_3_lilachangerbloom_",
+      "fandr_l_d_",
+      "recast_combine_",
+      "combine_6_redpedalwalker_",
+      "adj-_7_e_",
+      "dup_8_d_",
+      "alter_10_d_",
+      "swap_adj_11e_12d_",
+      "sub_1_i_",
+      "move_3_10_",
+      "mostf_0_d_",
+      "unlock_30_d_",
+      "swap_5r_30d_"
+    ]
+  },
+  "mostfrequentletter": {
+    "max_position": 33,
+    "sources": [
+      "tigerwishgrantbud",
+      "violeepicturet"
+    ],
+    "spells": [
+      "add",
+      "adjacent",
+      "alter",
+      "change",
+      "combine",
+      "drop",
+      "duplicate",
+      "find_and_replace",
+      "most_frequent",
+      "move",
+      "recast_spell",
+      "subtract",
+      "swap",
+      "swap_adjacent"
+    ],
+    "root": "tigerwishgrantbud",
+    "cost": 15,
+    "steps": [
+      "combine_3_violeepicturet_",
+      "swap_6l_14r_",
+      "change_4_m_",
+      "move_7_10_",
+      "adj+_8_p_",
+      "add_6_f_",
+      "alter_12_n_",
+      "sub_14_u_",
+      "dup_16_t_",
+      "mostf_6_t_",
+      "swap_adj_31u_32d_",
+      "drop_n_tigvmotfreqientletterwishgrantbd",
+      "fandr_i_u_",
+      "recast_move_",
+      "move_23_6_"
+    ]
+  }
+}
